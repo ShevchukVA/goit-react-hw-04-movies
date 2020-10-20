@@ -1,0 +1,116 @@
+html {
+  box-sizing: border-box;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Layout */
+
+.layout {
+  padding: 0 12px;
+}
+
+.line {
+  height: 6px;
+  background-color: #ada8a8;
+  margin-bottom: 8px;
+}
+
+/* Naviation */
+
+.list {
+  list-style: none;
+  display: flex;
+}
+
+.link {
+  font-size: 18px;
+  font-weight: 600;
+  color: #212121;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.activeLink {
+  color: #d34493;
+}
+
+/* Loading */
+
+.loading {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Movie Details */
+
+.button {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.box {
+  display: flex;
+}
+
+.boxImg {
+  margin-right: 20px;
+}
+
+.boxList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.boxListItem:not(:last-child) {
+  margin-right: 15px;
+}
+
+.boxLine {
+  height: 4px;
+  background-color: #ada8a8;
+  margin-bottom: 8px;
+}
+
+.info {
+  font-size: 20px;
+}
+
+/* Cast */
+
+.castImg {
+  width: 140px;
+  height: 200px;
+}
+
+/* Reviews */
+
+.author {
+  font-size: 22px;
+  font-weight: 600;
+  color: #000000;
+}
+
+/* Not Found */
+
+.container {
+  text-align: center;
+}
+
+.status {
+  font-size: 96px;
+}
